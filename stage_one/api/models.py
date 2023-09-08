@@ -6,3 +6,6 @@ class UserInfo(models.Model):
     track = models.CharField(max_length=100)
     github_file_url = models.URLField()
     github_repo_url = models.URLField()
+
+    def __str__(self):
+        return self.slack_name
