@@ -1,0 +1,7 @@
+django
+djangorestframework
+asgiref
+gunicorn
+pytz
+sqlparse
+typing_extensions
